@@ -35,3 +35,4 @@ app.post("/chatbot", async (req, res) => {
   });
   res.send(response.data.choices[0].message.content);
 });
+/**forsette med å sette opp response i morgen */
